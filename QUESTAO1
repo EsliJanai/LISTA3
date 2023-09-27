@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+    <meta name="author" content="Esli Janai">
+    <meta name="keywords" content="JavaScript">
+    <meta name="description" content="Atividade sobre JavaScript">
+</head>
+<body>
+    <script>
+        var a = 10;
+        var b = 5;
+        var c = 1;
+        var d;
+
+        c = b--;
+        b = a++;
+        a = 5 + "1";
+        d = "1" + "1";
+
+        console.log("a = " + a);
+        console.log("b = " + b);
+        console.log("c = " + c);
+        console.log("d = " + d);
+    </script>
+</body>
+</html>
